@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile"
+            android:title="@string/Profile"
+            android:icon="@drawable/account_icon2"/>
+        <item android:id="@+id/setting"
+            android:title="@string/Settings"
+            android:icon="@drawable/search"/>
+        <item android:id="@+id/ShareApp"
+            android:title="@string/ShareApp"
+            android:icon="@drawable/share_icon"/>
+        <item android:id="@+id/Favorite"
+            android:title="@string/Help"
+            android:icon="@drawable/favorite3"/>
+
+    </group>
+    <item android:title="@string/SignOut"
+        android:id="@+id/textSignOut">
+
+    </item>
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+android:layout_marginHorizontal="30dp"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+
+    app:layout_behavior="com.google.material.bottoom-sheet.BottomSheetBehavior"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="17dp"
+        android:background="@drawable/search_background3">
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="Thêm ảnh từ camera"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingVertical="17dp"
+        android:background="@drawable/search_background3">
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/hinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="Thêm ảnh từ thư viện"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

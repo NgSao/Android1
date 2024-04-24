@@ -1,0 +1,48 @@
+<!-- intro_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giới Thiệu về Công Ty"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chào mừng bạn đến với Công ty ABC. Chúng tôi chuyên cung cấp các sản phẩm chất lượng cao và dịch vụ tốt nhất cho khách hàng. Hãy khám phá thêm về chúng tôi!"
+        android:lineSpacingExtra="4dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chính sách giảm giá và vận chuyển:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Khi mua trên 4 sản phẩm, giảm giá 15k."
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Khi mua dưới 5 sản phẩm, phí vận chuyển là 30k."
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Khi mua hóa đơn trên 1000, giảm giá 100k."
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
